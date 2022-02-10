@@ -1,14 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="index.js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>Js_task1</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <div class="main_content">
+      <div class="inputs">
+        <label class="length_box" for="length_of_rectangle"
+          >Length of Rectangle</label
+        >
+        <input
+          type="text"
+          id="length_value"
+          name="length_of_rectangle"
+        /><label> mtr</label><br /><br />
+
+        <label class="width_box" for="width_of_rectangle"
+          >Width of Reactangle</label
+        >
+        <input
+          type="text"
+          id="width_value"
+          name="width_of_rectangle"
+        /><label> mtr</label><br /><br /><br />
+
+        <button onclick="myfunction1()">Calculate Area & Perimeter</button>
+      </div>
+
+      <div id= result1></div><br>
+      <div id= result2></div>
+     
+  
+    <script src="index.js"></script>
+
+
 </body>
 </html>

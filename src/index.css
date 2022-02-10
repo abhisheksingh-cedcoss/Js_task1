@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_content{
+    margin: 0;
+    width: 100%;
+ 
+    padding-left: 30em;
+    padding-right: 30em;
+    
+    padding-top: 10em;
+    height:50%;
+}
+
+
+
+button{
+    padding: 10px 20px;
+    margin-left: 10em;
+    border-radius: 6px;
+    
+
+}
+
+.input{
+margin-right:20%;
+    padding-right: 0;
+    
+
+}
+
+input{
+    padding: 10px 20px;
+    border-radius: 6px;
+    
+}
